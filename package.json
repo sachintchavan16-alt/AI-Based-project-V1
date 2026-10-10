@@ -29,5 +29,16 @@
     "dotenv": "^18.0.6",
     "mysql2": "^3.24.5",
     "xlsx": "^0.18.5"
-  }
+  },
+  "scripts1" : {
+    "test:api": "playwright test --grep @api",
+    "test:web": "playwright test --grep @web",
+    "test:master": "playwright test --grep @master",
+    "test:sanity": "playwright test --grep @sanity",
+    "test:regression": "playwright test --grep @regression",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:datadriven": "playwright test --grep @datadriven",
+    "test:master:headed": "playwright test --grep @sanity --headed",
+    "test:sanity:debug": "playwright test --grep @sanity --debug"
+}
 }
