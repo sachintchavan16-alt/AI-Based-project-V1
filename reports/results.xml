@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="27.935501">
+<testsuite name="web\opencart-e2e-shopping-flow.spec.js" timestamp="2026-10-10T05:52:32.657Z" hostname="chromium" tests="1" failures="0" skipped="0" time="22.276" errors="0">
+<testcase name="End-to-End Shopping Flow test @master @e2e" classname="web\opencart-e2e-shopping-flow.spec.js" time="22.276">
+<system-out>
+<![CDATA[✅ ✔️ End-to-end shopping flow completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

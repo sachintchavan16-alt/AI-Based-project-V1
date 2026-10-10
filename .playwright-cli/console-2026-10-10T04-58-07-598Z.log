@@ -1,0 +1,1 @@
+[    3693ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/index.php?route=account/register&language=en-gb:0

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(playwright-cli eval \"() => { const menus=Array.from(document.querySelectorAll('.dropdown-menu')); return menus.slice(0,2).map(m=>Array.from(m.querySelectorAll('a, button')).map(a=>({t:a.innerText.trim(), href:a.getAttribute('href')}))); }\")"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

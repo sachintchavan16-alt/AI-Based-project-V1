@@ -1,0 +1,189 @@
+- generic [ref=f10e1]:
+  - navigation [ref=f10e2]:
+    - generic [ref=f10e4]:
+      - list [ref=f10e6]:
+        - listitem [ref=f10e7]:
+          - button [ref=f10e10] [cursor=pointer]:
+            - strong [ref=f10e11]: $
+            - text: Currency
+        - listitem
+      - list [ref=f10e14]:
+        - listitem [ref=f10e15]:
+          - link "123456789" [ref=f10e16] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=information/contact&language=en-gb
+        - listitem [ref=f10e18]:
+          - button "My Account" [ref=f10e20] [cursor=pointer]
+        - listitem [ref=f10e23]:
+          - link "Wish List (0)" [ref=f10e24] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=account/wishlist&language=en-gb
+        - listitem [ref=f10e26]:
+          - link "Shopping Cart" [ref=f10e27] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=checkout/cart&language=en-gb
+        - listitem [ref=f10e29]:
+          - link "Checkout" [ref=f10e30] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=checkout/checkout&language=en-gb
+  - banner [ref=f10e32]:
+    - generic [ref=f10e34]:
+      - link [ref=f10e37] [cursor=pointer]:
+        - /url: http://localhost/opencart/index.php?route=common/home&language=en-gb
+        - img "Your Store" [ref=f10e38]
+      - generic [ref=f10e40]:
+        - textbox "Search" [ref=f10e41]
+        - button [ref=f10e42] [cursor=pointer]
+      - button "1 item(s) - $602.00" [ref=f10e46] [cursor=pointer]
+  - main [ref=f10e48]:
+    - navigation [ref=f10e50]:
+      - list [ref=f10e52]:
+        - listitem [ref=f10e53]:
+          - link "Desktops" [ref=f10e54] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=20
+        - listitem [ref=f10e55]:
+          - link "Laptops & Notebooks" [ref=f10e56] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=18
+        - listitem [ref=f10e57]:
+          - link "Components" [ref=f10e58] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=25
+        - listitem [ref=f10e59]:
+          - link "Tablets" [ref=f10e60] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=57
+        - listitem [ref=f10e61]:
+          - link "Software" [ref=f10e62] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=17
+        - listitem [ref=f10e63]:
+          - link "Phones & PDAs" [ref=f10e64] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=24
+        - listitem [ref=f10e65]:
+          - link "Cameras" [ref=f10e66] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=33
+        - listitem [ref=f10e67]:
+          - link "MP3 Players" [ref=f10e68] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=product/category&language=en-gb&path=34
+    - generic [ref=f10e69]:
+      - list [ref=f10e70]:
+        - listitem [ref=f10e71]:
+          - link [ref=f10e72] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=common/home&language=en-gb
+        - listitem [ref=f10e74]:
+          - link "Account" [ref=f10e75] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=account/account&language=en-gb
+        - listitem [ref=f10e76]:
+          - link "Login" [ref=f10e77] [cursor=pointer]:
+            - /url: http://localhost/opencart/index.php?route=account/login&language=en-gb
+      - generic [ref=f10e78]:
+        - text: "Warning: Invalid token session. Please login again!"
+        - button [ref=f10e80] [cursor=pointer]
+      - generic [ref=f10e81]:
+        - generic [ref=f10e83]:
+          - generic [ref=f10e85]:
+            - heading "New Customer" [level=2] [ref=f10e86]
+            - paragraph [ref=f10e87]:
+              - strong [ref=f10e88]: Register Account
+            - paragraph [ref=f10e89]: By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+            - link "Continue" [ref=f10e91] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/register&language=en-gb
+          - generic [ref=f10e94]:
+            - heading "Returning Customer" [level=2] [ref=f10e95]
+            - paragraph [ref=f10e96]:
+              - strong [ref=f10e97]: I am a returning customer
+            - generic [ref=f10e98]:
+              - generic [ref=f10e99]: E-Mail Address
+              - textbox "E-Mail Address" [ref=f10e100]
+            - generic [ref=f10e101]:
+              - generic [ref=f10e102]: Password
+              - textbox "Password" [ref=f10e103]
+              - link "Forgotten Password" [ref=f10e104] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/forgotten&language=en-gb
+            - button "Login" [ref=f10e106] [cursor=pointer]
+        - complementary [ref=f10e107]:
+          - generic [ref=f10e108]:
+            - link "Login" [ref=f10e109] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/login&language=en-gb
+            - link "Register" [ref=f10e110] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/register&language=en-gb
+            - link "Forgotten Password" [ref=f10e111] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/forgotten&language=en-gb
+            - link "My Account" [ref=f10e112] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/account&language=en-gb
+            - link "Payment Methods" [ref=f10e113] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/payment_method&language=en-gb
+            - link "Address Book" [ref=f10e114] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/address&language=en-gb
+            - link "Wish List" [ref=f10e115] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/wishlist&language=en-gb
+            - link "Order History" [ref=f10e116] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/order&language=en-gb
+            - link "Downloads" [ref=f10e117] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/download&language=en-gb
+            - link "Subscriptions" [ref=f10e118] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/subscription&language=en-gb
+            - link "Reward Points" [ref=f10e119] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/reward&language=en-gb
+            - link "Returns" [ref=f10e120] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/returns&language=en-gb
+            - link "Transactions" [ref=f10e121] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/transaction&language=en-gb
+            - link "Newsletter" [ref=f10e122] [cursor=pointer]:
+              - /url: http://localhost/opencart/index.php?route=account/newsletter&language=en-gb
+  - contentinfo [ref=f10e123]:
+    - generic [ref=f10e124]:
+      - generic [ref=f10e125]:
+        - generic [ref=f10e126]:
+          - heading "Information" [level=5] [ref=f10e127]
+          - list [ref=f10e128]:
+            - listitem [ref=f10e129]:
+              - link "Terms & Conditions" [ref=f10e130] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/information&language=en-gb&information_id=2
+            - listitem [ref=f10e131]:
+              - link "Delivery Information" [ref=f10e132] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/information&language=en-gb&information_id=4
+            - listitem [ref=f10e133]:
+              - link "About Us" [ref=f10e134] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/information&language=en-gb&information_id=1
+            - listitem [ref=f10e135]:
+              - link "Privacy Policy" [ref=f10e136] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/information&language=en-gb&information_id=3
+        - generic [ref=f10e137]:
+          - heading "Customer Service" [level=5] [ref=f10e138]
+          - list [ref=f10e139]:
+            - listitem [ref=f10e140]:
+              - link "Contact Us" [ref=f10e141] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/contact&language=en-gb
+            - listitem [ref=f10e142]:
+              - link "Returns" [ref=f10e143] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/returns.add&language=en-gb
+            - listitem [ref=f10e144]:
+              - link "Site Map" [ref=f10e145] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=information/sitemap&language=en-gb
+        - generic [ref=f10e146]:
+          - heading "Extras" [level=5] [ref=f10e147]
+          - list [ref=f10e148]:
+            - listitem [ref=f10e149]:
+              - link "Brands" [ref=f10e150] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=product/manufacturer&language=en-gb
+            - listitem [ref=f10e151]:
+              - link "Affiliate" [ref=f10e152] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/affiliate&language=en-gb
+            - listitem [ref=f10e153]:
+              - link "Specials" [ref=f10e154] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=product/special&language=en-gb
+        - generic [ref=f10e155]:
+          - heading "My Account" [level=5] [ref=f10e156]
+          - list [ref=f10e157]:
+            - listitem [ref=f10e158]:
+              - link "My Account" [ref=f10e159] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/account&language=en-gb
+            - listitem [ref=f10e160]:
+              - link "Order History" [ref=f10e161] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/order&language=en-gb
+            - listitem [ref=f10e162]:
+              - link "Wish List" [ref=f10e163] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/wishlist&language=en-gb
+            - listitem [ref=f10e164]:
+              - link "Newsletter" [ref=f10e165] [cursor=pointer]:
+                - /url: http://localhost/opencart/index.php?route=account/newsletter&language=en-gb
+      - separator [ref=f10e166]
+      - paragraph [ref=f10e167]:
+        - text: Powered By
+        - link "OpenCart" [ref=f10e168] [cursor=pointer]:
+          - /url: https://www.opencart.com
+        - text: Your Store © 2026
